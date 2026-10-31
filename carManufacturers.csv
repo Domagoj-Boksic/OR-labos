@@ -1,0 +1,38 @@
+name,founded_year,headquarters_country,headquarters_city,est_value,industry,is_public,revenue_amount,revenue_year,brand_name,brand_founded
+BMW Group,1916,Germany,Munich,38.86,Automotive,true,153.16,2024,BMW,1916
+BMW Group,1916,Germany,Munich,38.86,Automotive,true,153.16,2024,MINI,1956
+BMW Group,1916,Germany,Munich,38.86,Automotive,true,153.16,2024,Rolls-Royce,1906
+BYD,1995,China,Shenzhen,111.52,Automotive,true,107.87,2024,BYD,1995
+Ford,1903,USA,Dearborn,48.91,Automotive,true,187.26,2025,Ford,1903
+Ford,1903,USA,Dearborn,48.91,Automotive,true,187.26,2025,Lincoln,1917
+General Motors,1908,USA,Detroit,74.20,Automotive,true,185.01,2025,Buick,1899
+General Motors,1908,USA,Detroit,74.20,Automotive,true,185.01,2025,Cadillac,1902
+General Motors,1908,USA,Detroit,74.20,Automotive,true,185.01,2025,Chevrolet,1911
+Honda,1948,Japan,Tokyo,44.06,Automotive,true,142.81,2025,Acura,1986
+Honda,1948,Japan,Tokyo,44.06,Automotive,true,142.81,2025,Honda,1948
+Hyundai,1967,South Korea,Seoul,55.99,Automotive,true,131.84,2025,Hyundai,1967
+Hyundai,1967,South Korea,Seoul,55.99,Automotive,true,131.84,2025,Kia,1944
+Mercedes-Benz Group,1926,Germany,Stuttgart,43.37,Automotive,true,156.62,2024,Mercedes-AMG,1967
+Mercedes-Benz Group,1926,Germany,Stuttgart,43.37,Automotive,true,156.62,2024,Mercedes-Benz,1926
+Mercedes-Benz Group,1926,Germany,Stuttgart,43.37,Automotive,true,156.62,2024,Mercedes-Maybach,2014
+Renault,1899,France,Boulogne-Billancourt,8.98,Automotive,true,68.04,2025,Alpine,1955
+Renault,1899,France,Boulogne-Billancourt,8.98,Automotive,true,68.04,2025,Dacia,1966
+Renault,1899,France,Boulogne-Billancourt,8.98,Automotive,true,68.04,2025,Renault,1899
+Stellantis,2021,Netherlands,Amsterdam,13.47,Automotive,true,173.68,2025,Alfa Romeo,1910
+Stellantis,2021,Netherlands,Amsterdam,13.47,Automotive,true,173.68,2025,Citroen,1919
+Stellantis,2021,Netherlands,Amsterdam,13.47,Automotive,true,173.68,2025,Fiat,1899
+Stellantis,2021,Netherlands,Amsterdam,13.47,Automotive,true,173.68,2025,Jeep,1941
+Stellantis,2021,Netherlands,Amsterdam,13.47,Automotive,true,173.68,2025,Maserati,1914
+Stellantis,2021,Netherlands,Amsterdam,13.47,Automotive,true,173.68,2025,Opel,1862
+Stellantis,2021,Netherlands,Amsterdam,13.47,Automotive,true,173.68,2025,Peugeot,1810
+Tesla,2003,USA,Austin,1580.00,Automotive,true,94.82,2025,Tesla,2003
+Toyota,1937,Japan,Toyota City,230.50,Automotive,true,337.34,2025,Daihatsu,1907
+Toyota,1937,Japan,Toyota City,230.50,Automotive,true,337.34,2025,Lexus,1989
+Toyota,1937,Japan,Toyota City,230.50,Automotive,true,337.34,2025,Toyota,1937
+Volkswagen,1937,Germany,Wolfsburg,39.20,Automotive,true,349.23,2024,Audi,1909
+Volkswagen,1937,Germany,Wolfsburg,39.20,Automotive,true,349.23,2024,Bentley,1919
+Volkswagen,1937,Germany,Wolfsburg,39.20,Automotive,true,349.23,2024,Lamborghini,1963
+Volkswagen,1937,Germany,Wolfsburg,39.20,Automotive,true,349.23,2024,Porsche,1931
+Volkswagen,1937,Germany,Wolfsburg,39.20,Automotive,true,349.23,2024,SEAT,1950
+Volkswagen,1937,Germany,Wolfsburg,39.20,Automotive,true,349.23,2024,Skoda,1895
+Volkswagen,1937,Germany,Wolfsburg,39.20,Automotive,true,349.23,2024,Volkswagen,1937
