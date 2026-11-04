@@ -19,17 +19,14 @@ Verzija: 1.0
 Jezik
 Engleski jezik
 
-Izvor podataka
-https://companiesmarketcap.com/
-https://alansfactoryoutlet.com/
+Izvor podataka<br>
+- https://companiesmarketcap.com/
+- https://alansfactoryoutlet.com/
 
-Sadržaj skupa podataka
-manufacturer
-  - ime, godina osnivanja, mjesto glavnog ureda, procjenjena vrijednost, industrija, je li javna,  zarada i marke koje proizvode
-revenue
-  - zarada i godina
-brand
-  - ime marke i godina osnivanja
+Sadržaj skupa podataka<br>
+- manufacturer: ime, godina osnivanja, mjesto glavnog ureda, procjenjena vrijednost, industrija, je li javna,  zarada i marke koje proizvode<br>
+- revenue: zarada i godina<br>
+- brand: ime marke i godina osnivanja
 
 Formati podataka
 CSV
