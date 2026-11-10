@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: azure;
+}
+
+#root {
+    padding: 1em;
+}
+
+button, select {
+    cursor: pointer;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    gap: 1em;
+}
+
+.main-index {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    "info download"
+    "meta meta"
+    "attr attr";
+    align-items: start;
+    gap: 1em;
+}
+
+.info {
+    grid-area: info;
+}
+
+.download {
+    grid-area: download;
+}
+
+.info, .download {
+    height: 100%;
+}
+
+.metadata, .attributes {
+    grid-area: meta;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.attributes {
+    grid-area: attr;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    border: 2px solid #000000;
+    background-color: rgb(217, 255, 255);
+    padding: 0.5rem 0.75rem;
+}
+td {
+    border: 1px solid #000000;
+    padding: 0.5rem 0.75rem;
+    background-color: white;
+}
+
+.download ul {
+    padding-left: 1em;
+}
+
+.filter {
+    padding-bottom: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#filterForm * {
+    height: 2rem;
+}
+#filterForm input {
+    width: 12rem;
+}
+#filterForm select, #filterForm button, #exportList li button{
+    width: 6rem;
+    background-color: rgb(217, 255, 255);
+    border-radius: 10px;
+    font-weight: 600;
+}
+#filterForm button:hover, #filterForm button:focus {
+    background-color: rgb(153, 204, 204);
+}
+#exportList {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    gap: 5px;
+}
+
+.table-container {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    border-radius: 8px;
+    -webkit-overflow-scrolling: touch;
+    border: 2px solid black;
+    padding: 1em;
+    background-color: azure;
+}
+#resTable {
+    width: 100%;
+    min-width: 1100px;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+
+@media (max-width: 700px) {
+    .main {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "info"
+            "download"
+            "meta"
+            "attr";
+    }
+}

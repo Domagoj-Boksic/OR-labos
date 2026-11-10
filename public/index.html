@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="site.css" />
+    <title>Car Manufacturers</title>
+    <meta
+      name="description"
+      content="Car manufacturers, brands they own, make and sell, and their revenue across the years"
+    />
+    <meta name="author" content="Domagoj Bokšić" />
+  </head>
+  <body>
+    <div id="root">
+      <header class="header">
+        <h1>Car Manufacturers</h1>
+        <nav class="nav">
+          <a href="datatable.html">View data in a table</a>
+        </nav>
+      </header>
+
+      <main class="main main-index">
+        <section class="section info">
+          <h2>About the dataset</h2>
+          <p>
+            Car manufacturers, the brands they own, make and sell, and their
+            revenue across the years. The data is stored in a PostgreSQL
+            database in three normalized tables (manufacturer, brand, revenue)
+            and exported as CSV and JSON.
+          </p>
+        </section>
+
+        <section class="section download">
+          <h2>Download</h2>
+          <ul>
+            <li>
+              <a href="carManufacturers.csv" download>carManufacturers.csv</a>
+              (CSV)
+            </li>
+            <li>
+              <a href="carManufacturers.json" download>carManufacturers.json</a>
+              (JSON)
+            </li>
+          </ul>
+        </section>
+
+        <section class="section metadata">
+          <h2>Metadata</h2>
+          <table>
+            <tr>
+              <th>Property</th>
+              <th>Value</th>
+            </tr>
+            <tr>
+              <td>Dataset name</td>
+              <td>Car Manufacturers</td>
+            </tr>
+            <tr>
+              <td>Author</td>
+              <td>Domagoj Bokšić</td>
+            </tr>
+            <tr>
+              <td>Version</td>
+              <td>2.0</td>
+            </tr>
+            <tr>
+              <td>License</td>
+              <td>Creative Commons CC0 1.0 Universal</td>
+            </tr>
+            <tr>
+              <td>Language of the data</td>
+              <td>English</td>
+            </tr>
+            <tr> 
+              <td>Date created</td>
+              <td>30.10.2026</td>
+            </tr>
+            <tr>
+              <td>Last updated</td>
+              <td>11.10.2026</td>
+            </tr>
+            <tr>
+              <td>Formats</td>
+              <td>CSV, JSON (plus SQL database dump)</td>
+            </tr>
+            <tr>
+              <td>Number of manufacturers</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <td>Number of brands</td>
+              <td>37</td>
+            </tr>
+            <tr>
+              <td>Currency unit</td>
+              <td>billions of US dollars (USD)</td>
+            </tr>
+            <tr>
+              <td>Data sources</td>
+              <td>
+                <a href="https://companiesmarketcap.com/"
+                  >companiesmarketcap.com</a
+                >,
+                <a href="https://alansfactoryoutlet.com/">alansfactoryoutlet.com</a>
+              </td>
+            </tr>
+          </table>
+        </section>
+
+        <section class="section attributes">
+          <h2>Attributes</h2>
+          <table>
+            <tr>
+              <th>Attribute</th>
+              <th>Type</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td>name</td>
+              <td>text</td>
+              <td>Manufacturer name</td>
+            </tr>
+            <tr>
+              <td>founded_year</td>
+              <td>integer</td>
+              <td>Year the manufacturer was founded</td>
+            </tr>
+            <tr>
+              <td>headquarters_country</td>
+              <td>text</td>
+              <td>Country of the headquarters</td>
+            </tr>
+            <tr>
+              <td>headquarters_city</td>
+              <td>text</td>
+              <td>City of the headquarters</td>
+            </tr>
+            <tr>
+              <td>est_value</td>
+              <td>decimal number</td>
+              <td>
+                Estimated value (market capitalization) in billions of USD
+              </td>
+            </tr>
+            <tr>
+              <td>industry</td>
+              <td>text</td>
+              <td>Industry of the manufacturer</td>
+            </tr>
+            <tr>
+              <td>is_public</td>
+              <td>boolean</td>
+              <td>Whether the company is publicly listed</td>
+            </tr>
+            <tr>
+              <td>revenue_amount</td>
+              <td>decimal number</td>
+              <td>Annual revenue in billions of USD</td>
+            </tr>
+            <tr>
+              <td>revenue_year</td>
+              <td>integer</td>
+              <td>Year the revenue refers to</td>
+            </tr>
+            <tr>
+              <td>brand_name</td>
+              <td>text</td>
+              <td>Name of a brand produced by the manufacturer</td>
+            </tr>
+            <tr>
+              <td>brand_founded</td>
+              <td>integer</td>
+              <td>Year the brand was founded</td>
+            </tr>
+          </table>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

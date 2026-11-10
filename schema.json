@@ -1,0 +1,106 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/Domagoj-Boksic/OR-labos/schema.json",
+  "title": "Car manufacturers",
+  "description": "Car manufacturers, brands they own, make and sell, and their revenue across the years",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "title": "Car manufacturer",
+    "description": "Single car manufacturer",
+    "properties": {
+      "name": {
+        "type": "string",
+        "title": "Name",
+        "description": "Name of the manufacturer."
+      },
+      "founded_year": {
+        "type": "integer",
+        "title": "Founded year",
+        "description": "Year the manufacturer was founded."
+      },
+      "headquarters_country": {
+        "type": "string",
+        "title": "Headquarters country",
+        "description": "Country where the headquarters is located."
+      },
+      "headquarters_city": {
+        "type": "string",
+        "title": "Headquarters city",
+        "description": "City where the headquarters is located."
+      },
+      "est_value": {
+        "type": "number",
+        "title": "Estimated value",
+        "description": "Estimated value (market capitalization) in billions of USD."
+      },
+      "industry": {
+        "type": "string",
+        "title": "Industry",
+        "description": "Industry the manufacturer belongs to."
+      },
+      "is_public": {
+        "type": "boolean",
+        "title": "Is public",
+        "description": "True if the company is publicly listed on a stock exchange."
+      },
+      "revenue": {
+        "type": "array",
+        "title": "Revenue",
+        "description": "Annual revenue of the manufacturer, one entry per year.",
+        "items": {
+          "type": "object",
+          "title": "Annual revenue",
+          "description": "Revenue of the manufacturer for a single year.",
+          "properties": {
+            "amount": {
+              "type": "number",
+              "title": "Amount",
+              "description": "Total annual revenue in billions of USD."
+            },
+            "year": {
+              "type": "integer",
+              "title": "Year",
+              "description": "Year the revenue refers to."
+            }
+          },
+          "required": ["amount", "year"]
+        }
+      },
+      "brands": {
+        "type": "array",
+        "title": "Brands",
+        "description": "Brands produced by the manufacturer.",
+        "items": {
+          "type": "object",
+          "title": "Brand",
+          "description": "A single brand owned by the manufacturer.",
+          "properties": {
+            "name": {
+              "type": "string",
+              "title": "Brand name",
+              "description": "Name of the brand."
+            },
+            "founded": {
+              "type": "integer",
+              "title": "Brand founded year",
+              "description": "Year the brand was founded."
+            }
+          },
+          "required": ["name", "founded"]
+        }
+      }
+    },
+    "required": [
+      "name",
+      "founded_year",
+      "headquarters_country",
+      "headquarters_city",
+      "est_value",
+      "industry",
+      "is_public",
+      "revenue",
+      "brands"
+    ]
+  }
+}

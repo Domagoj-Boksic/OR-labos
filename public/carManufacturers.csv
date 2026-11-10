@@ -1,0 +1,112 @@
+name,founded_year,headquarters_country,headquarters_city,est_value,industry,is_public,revenue_amount,revenue_year,brand_name,brand_founded
+BMW Group,1916,Germany,Munich,38.86,Automotive,true,149.68,2022,BMW,1916
+BMW Group,1916,Germany,Munich,38.86,Automotive,true,168.86,2023,BMW,1916
+BMW Group,1916,Germany,Munich,38.86,Automotive,true,153.16,2024,BMW,1916
+BMW Group,1916,Germany,Munich,38.86,Automotive,true,149.68,2022,MINI,1956
+BMW Group,1916,Germany,Munich,38.86,Automotive,true,168.86,2023,MINI,1956
+BMW Group,1916,Germany,Munich,38.86,Automotive,true,153.16,2024,MINI,1956
+BMW Group,1916,Germany,Munich,38.86,Automotive,true,149.68,2022,Rolls-Royce,1906
+BMW Group,1916,Germany,Munich,38.86,Automotive,true,168.86,2023,Rolls-Royce,1906
+BMW Group,1916,Germany,Munich,38.86,Automotive,true,153.16,2024,Rolls-Royce,1906
+BYD,1995,China,Shenzhen,111.52,Automotive,true,62.17,2022,BYD,1995
+BYD,1995,China,Shenzhen,111.52,Automotive,true,84.92,2023,BYD,1995
+BYD,1995,China,Shenzhen,111.52,Automotive,true,107.87,2024,BYD,1995
+Ford,1903,USA,Dearborn,48.91,Automotive,true,176.19,2023,Ford,1903
+Ford,1903,USA,Dearborn,48.91,Automotive,true,184.99,2024,Ford,1903
+Ford,1903,USA,Dearborn,48.91,Automotive,true,187.26,2025,Ford,1903
+Ford,1903,USA,Dearborn,48.91,Automotive,true,176.19,2023,Lincoln,1917
+Ford,1903,USA,Dearborn,48.91,Automotive,true,184.99,2024,Lincoln,1917
+Ford,1903,USA,Dearborn,48.91,Automotive,true,187.26,2025,Lincoln,1917
+General Motors,1908,USA,Detroit,74.20,Automotive,true,171.84,2023,Buick,1899
+General Motors,1908,USA,Detroit,74.20,Automotive,true,187.44,2024,Buick,1899
+General Motors,1908,USA,Detroit,74.20,Automotive,true,185.01,2025,Buick,1899
+General Motors,1908,USA,Detroit,74.20,Automotive,true,171.84,2023,Cadillac,1902
+General Motors,1908,USA,Detroit,74.20,Automotive,true,187.44,2024,Cadillac,1902
+General Motors,1908,USA,Detroit,74.20,Automotive,true,185.01,2025,Cadillac,1902
+General Motors,1908,USA,Detroit,74.20,Automotive,true,171.84,2023,Chevrolet,1911
+General Motors,1908,USA,Detroit,74.20,Automotive,true,187.44,2024,Chevrolet,1911
+General Motors,1908,USA,Detroit,74.20,Automotive,true,185.01,2025,Chevrolet,1911
+Honda,1948,Japan,Tokyo,44.06,Automotive,true,136.48,2023,Acura,1986
+Honda,1948,Japan,Tokyo,44.06,Automotive,true,142.20,2024,Acura,1986
+Honda,1948,Japan,Tokyo,44.06,Automotive,true,142.81,2025,Acura,1986
+Honda,1948,Japan,Tokyo,44.06,Automotive,true,136.48,2023,Honda,1948
+Honda,1948,Japan,Tokyo,44.06,Automotive,true,142.20,2024,Honda,1948
+Honda,1948,Japan,Tokyo,44.06,Automotive,true,142.81,2025,Honda,1948
+Hyundai,1967,South Korea,Seoul,55.99,Automotive,true,123.54,2023,Hyundai,1967
+Hyundai,1967,South Korea,Seoul,55.99,Automotive,true,127.24,2024,Hyundai,1967
+Hyundai,1967,South Korea,Seoul,55.99,Automotive,true,131.84,2025,Hyundai,1967
+Hyundai,1967,South Korea,Seoul,55.99,Automotive,true,123.54,2023,Kia,1944
+Hyundai,1967,South Korea,Seoul,55.99,Automotive,true,127.24,2024,Kia,1944
+Hyundai,1967,South Korea,Seoul,55.99,Automotive,true,131.84,2025,Kia,1944
+Mercedes-Benz Group,1926,Germany,Stuttgart,43.37,Automotive,true,157.66,2022,Mercedes-AMG,1967
+Mercedes-Benz Group,1926,Germany,Stuttgart,43.37,Automotive,true,166.17,2023,Mercedes-AMG,1967
+Mercedes-Benz Group,1926,Germany,Stuttgart,43.37,Automotive,true,156.62,2024,Mercedes-AMG,1967
+Mercedes-Benz Group,1926,Germany,Stuttgart,43.37,Automotive,true,157.66,2022,Mercedes-Benz,1926
+Mercedes-Benz Group,1926,Germany,Stuttgart,43.37,Automotive,true,166.17,2023,Mercedes-Benz,1926
+Mercedes-Benz Group,1926,Germany,Stuttgart,43.37,Automotive,true,156.62,2024,Mercedes-Benz,1926
+Mercedes-Benz Group,1926,Germany,Stuttgart,43.37,Automotive,true,157.66,2022,Mercedes-Maybach,2014
+Mercedes-Benz Group,1926,Germany,Stuttgart,43.37,Automotive,true,166.17,2023,Mercedes-Maybach,2014
+Mercedes-Benz Group,1926,Germany,Stuttgart,43.37,Automotive,true,156.62,2024,Mercedes-Maybach,2014
+Renault,1899,France,Boulogne-Billancourt,8.98,Automotive,true,57.89,2023,Alpine,1955
+Renault,1899,France,Boulogne-Billancourt,8.98,Automotive,true,58.51,2024,Alpine,1955
+Renault,1899,France,Boulogne-Billancourt,8.98,Automotive,true,68.04,2025,Alpine,1955
+Renault,1899,France,Boulogne-Billancourt,8.98,Automotive,true,57.89,2023,Dacia,1966
+Renault,1899,France,Boulogne-Billancourt,8.98,Automotive,true,58.51,2024,Dacia,1966
+Renault,1899,France,Boulogne-Billancourt,8.98,Automotive,true,68.04,2025,Dacia,1966
+Renault,1899,France,Boulogne-Billancourt,8.98,Automotive,true,57.89,2023,Renault,1899
+Renault,1899,France,Boulogne-Billancourt,8.98,Automotive,true,58.51,2024,Renault,1899
+Renault,1899,France,Boulogne-Billancourt,8.98,Automotive,true,68.04,2025,Renault,1899
+Stellantis,2021,Netherlands,Amsterdam,13.47,Automotive,true,205.14,2023,Alfa Romeo,1910
+Stellantis,2021,Netherlands,Amsterdam,13.47,Automotive,true,169.80,2024,Alfa Romeo,1910
+Stellantis,2021,Netherlands,Amsterdam,13.47,Automotive,true,173.68,2025,Alfa Romeo,1910
+Stellantis,2021,Netherlands,Amsterdam,13.47,Automotive,true,205.14,2023,Citroen,1919
+Stellantis,2021,Netherlands,Amsterdam,13.47,Automotive,true,169.80,2024,Citroen,1919
+Stellantis,2021,Netherlands,Amsterdam,13.47,Automotive,true,173.68,2025,Citroen,1919
+Stellantis,2021,Netherlands,Amsterdam,13.47,Automotive,true,205.14,2023,Fiat,1899
+Stellantis,2021,Netherlands,Amsterdam,13.47,Automotive,true,169.80,2024,Fiat,1899
+Stellantis,2021,Netherlands,Amsterdam,13.47,Automotive,true,173.68,2025,Fiat,1899
+Stellantis,2021,Netherlands,Amsterdam,13.47,Automotive,true,205.14,2023,Jeep,1941
+Stellantis,2021,Netherlands,Amsterdam,13.47,Automotive,true,169.80,2024,Jeep,1941
+Stellantis,2021,Netherlands,Amsterdam,13.47,Automotive,true,173.68,2025,Jeep,1941
+Stellantis,2021,Netherlands,Amsterdam,13.47,Automotive,true,205.14,2023,Maserati,1914
+Stellantis,2021,Netherlands,Amsterdam,13.47,Automotive,true,169.80,2024,Maserati,1914
+Stellantis,2021,Netherlands,Amsterdam,13.47,Automotive,true,173.68,2025,Maserati,1914
+Stellantis,2021,Netherlands,Amsterdam,13.47,Automotive,true,205.14,2023,Opel,1862
+Stellantis,2021,Netherlands,Amsterdam,13.47,Automotive,true,169.80,2024,Opel,1862
+Stellantis,2021,Netherlands,Amsterdam,13.47,Automotive,true,173.68,2025,Opel,1862
+Stellantis,2021,Netherlands,Amsterdam,13.47,Automotive,true,205.14,2023,Peugeot,1810
+Stellantis,2021,Netherlands,Amsterdam,13.47,Automotive,true,169.80,2024,Peugeot,1810
+Stellantis,2021,Netherlands,Amsterdam,13.47,Automotive,true,173.68,2025,Peugeot,1810
+Tesla,2003,USA,Austin,1580.00,Automotive,true,96.77,2023,Tesla,2003
+Tesla,2003,USA,Austin,1580.00,Automotive,true,97.69,2024,Tesla,2003
+Tesla,2003,USA,Austin,1580.00,Automotive,true,94.82,2025,Tesla,2003
+Toyota,1937,Japan,Toyota City,230.50,Automotive,true,307.60,2023,Daihatsu,1907
+Toyota,1937,Japan,Toyota City,230.50,Automotive,true,305.26,2024,Daihatsu,1907
+Toyota,1937,Japan,Toyota City,230.50,Automotive,true,337.34,2025,Daihatsu,1907
+Toyota,1937,Japan,Toyota City,230.50,Automotive,true,307.60,2023,Lexus,1989
+Toyota,1937,Japan,Toyota City,230.50,Automotive,true,305.26,2024,Lexus,1989
+Toyota,1937,Japan,Toyota City,230.50,Automotive,true,337.34,2025,Lexus,1989
+Toyota,1937,Japan,Toyota City,230.50,Automotive,true,307.60,2023,Toyota,1937
+Toyota,1937,Japan,Toyota City,230.50,Automotive,true,305.26,2024,Toyota,1937
+Toyota,1937,Japan,Toyota City,230.50,Automotive,true,337.34,2025,Toyota,1937
+Volkswagen,1937,Germany,Wolfsburg,39.20,Automotive,true,293.17,2022,Audi,1909
+Volkswagen,1937,Germany,Wolfsburg,39.20,Automotive,true,350.00,2023,Audi,1909
+Volkswagen,1937,Germany,Wolfsburg,39.20,Automotive,true,349.23,2024,Audi,1909
+Volkswagen,1937,Germany,Wolfsburg,39.20,Automotive,true,293.17,2022,Bentley,1919
+Volkswagen,1937,Germany,Wolfsburg,39.20,Automotive,true,350.00,2023,Bentley,1919
+Volkswagen,1937,Germany,Wolfsburg,39.20,Automotive,true,349.23,2024,Bentley,1919
+Volkswagen,1937,Germany,Wolfsburg,39.20,Automotive,true,293.17,2022,Lamborghini,1963
+Volkswagen,1937,Germany,Wolfsburg,39.20,Automotive,true,350.00,2023,Lamborghini,1963
+Volkswagen,1937,Germany,Wolfsburg,39.20,Automotive,true,349.23,2024,Lamborghini,1963
+Volkswagen,1937,Germany,Wolfsburg,39.20,Automotive,true,293.17,2022,Porsche,1931
+Volkswagen,1937,Germany,Wolfsburg,39.20,Automotive,true,350.00,2023,Porsche,1931
+Volkswagen,1937,Germany,Wolfsburg,39.20,Automotive,true,349.23,2024,Porsche,1931
+Volkswagen,1937,Germany,Wolfsburg,39.20,Automotive,true,293.17,2022,SEAT,1950
+Volkswagen,1937,Germany,Wolfsburg,39.20,Automotive,true,350.00,2023,SEAT,1950
+Volkswagen,1937,Germany,Wolfsburg,39.20,Automotive,true,349.23,2024,SEAT,1950
+Volkswagen,1937,Germany,Wolfsburg,39.20,Automotive,true,293.17,2022,Skoda,1895
+Volkswagen,1937,Germany,Wolfsburg,39.20,Automotive,true,350.00,2023,Skoda,1895
+Volkswagen,1937,Germany,Wolfsburg,39.20,Automotive,true,349.23,2024,Skoda,1895
+Volkswagen,1937,Germany,Wolfsburg,39.20,Automotive,true,293.17,2022,Volkswagen,1937
+Volkswagen,1937,Germany,Wolfsburg,39.20,Automotive,true,350.00,2023,Volkswagen,1937
+Volkswagen,1937,Germany,Wolfsburg,39.20,Automotive,true,349.23,2024,Volkswagen,1937

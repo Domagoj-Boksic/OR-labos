@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Car Manufacturers - Table</title>
+    <meta
+      name="description"
+      content="Car manufacturers, brands they own, make and sell, and their revenue across the years"
+    />
+    <meta name="author" content="Domagoj Bokšić" />
+    <link rel="stylesheet" href="site.css" />
+  </head>
+  <body>
+    <div id="root">
+      <header class="header">
+        <h1>Table view</h1>
+        <nav class="nav">
+          <a href="index.html">Home</a>
+        </nav>
+      </header>
+
+      <main class="main">
+        <section class="section filter s1">
+          <form id="filterForm">
+            <h2>Filter your search</h2>
+            <input type="text" name="userInput" id="userInput" />
+            <select name="attr" id="attr">
+              <option value="all" selected>All fields</option>
+              <option value="name">name</option>
+              <option value="brand_name">brand name</option>
+              <option value="headquarters_country">country</option>
+              <option value="headquarters_city">city</option>
+            </select>
+            <button type="submit">Search</button>
+          </form>
+
+          <div class="download">
+            <h2>Export current data</h2>
+            <ul id="exportList">
+                <li><button type="button" id="csvExport">Download CSV</button></li>
+                <li><button type="button" id="jsonExport">Download JSON</button></li>
+            </ul>
+          </div>
+        </section>
+
+        <section class="section data s2">
+          <div class="table-container">
+            <table id="resTable">
+              <tr>
+                <th>Name</th>
+                <th>Founded year</th>
+                <th>Headquarters country</th>
+                <th>Headquarters city</th>
+                <th>Estimated value</th>
+                <th>Industry</th>
+                <th>Public</th>
+                <th>Revenue amount</th>
+                <th>Revenue year</th>
+                <th>Brand name</th>
+                <th>Brand founded year</th>
+              </tr>
+            </table>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="frontend/datatableService.js"></script>
+  </body>
+</html>

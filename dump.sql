@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict azQtou7Fxiqbrmmk0aGYkAt1od5BEpg3InogvX403zRgGSJLnJWlI6BKNL7X30s
+\restrict Kd2J3rbigwj8Se8c8f2b0RGOJoc5dxOUCSOTE7qn55iAkP6lrpJvEEJ01cqBKYt
 
 -- Dumped from database version 18.6
 -- Dumped by pg_dump version 18.6
@@ -105,9 +105,8 @@ CREATE VIEW public.csv_export AS
             revenue.year
            FROM public.revenue
           WHERE (revenue.manufacturer_id = m.id)
-          ORDER BY revenue.year DESC
-         LIMIT 1) r ON (true))
-  ORDER BY m.name, b.name;
+          ORDER BY revenue.year DESC) r ON (true))
+  ORDER BY m.name, b.name, r.year;
 
 
 --
@@ -374,5 +373,5 @@ ALTER TABLE ONLY public.revenue
 -- PostgreSQL database dump complete
 --
 
-\unrestrict azQtou7Fxiqbrmmk0aGYkAt1od5BEpg3InogvX403zRgGSJLnJWlI6BKNL7X30s
+\unrestrict Kd2J3rbigwj8Se8c8f2b0RGOJoc5dxOUCSOTE7qn55iAkP6lrpJvEEJ01cqBKYt
 

@@ -1,0 +1,227 @@
+[
+  {
+    "name": "General Motors",
+    "founded_year": 1908,
+    "headquarters_country": "USA",
+    "headquarters_city": "Detroit",
+    "est_value": 74.2,
+    "industry": "Automotive",
+    "is_public": true,
+    "revenue": [
+      { "amount": 171.84, "year": 2023 },
+      { "amount": 187.44, "year": 2024 },
+      { "amount": 185.01, "year": 2025 }
+    ],
+    "brands": [
+      { "name": "Buick", "founded": 1899 },
+      { "name": "Cadillac", "founded": 1902 },
+      { "name": "Chevrolet", "founded": 1911 }
+    ]
+  },
+  {
+    "name": "Toyota",
+    "founded_year": 1937,
+    "headquarters_country": "Japan",
+    "headquarters_city": "Toyota City",
+    "est_value": 230.5,
+    "industry": "Automotive",
+    "is_public": true,
+    "revenue": [
+      { "amount": 307.6, "year": 2023 },
+      { "amount": 305.26, "year": 2024 },
+      { "amount": 337.34, "year": 2025 }
+    ],
+    "brands": [
+      { "name": "Daihatsu", "founded": 1907 },
+      { "name": "Lexus", "founded": 1989 },
+      { "name": "Toyota", "founded": 1937 }
+    ]
+  },
+  {
+    "name": "Volkswagen",
+    "founded_year": 1937,
+    "headquarters_country": "Germany",
+    "headquarters_city": "Wolfsburg",
+    "est_value": 39.2,
+    "industry": "Automotive",
+    "is_public": true,
+    "revenue": [
+      { "amount": 293.17, "year": 2022 },
+      { "amount": 350.0, "year": 2023 },
+      { "amount": 349.23, "year": 2024 }
+    ],
+    "brands": [
+      { "name": "Audi", "founded": 1909 },
+      { "name": "Bentley", "founded": 1919 },
+      { "name": "Lamborghini", "founded": 1963 },
+      { "name": "Porsche", "founded": 1931 },
+      { "name": "SEAT", "founded": 1950 },
+      { "name": "Skoda", "founded": 1895 },
+      { "name": "Volkswagen", "founded": 1937 }
+    ]
+  },
+  {
+    "name": "Stellantis",
+    "founded_year": 2021,
+    "headquarters_country": "Netherlands",
+    "headquarters_city": "Amsterdam",
+    "est_value": 13.47,
+    "industry": "Automotive",
+    "is_public": true,
+    "revenue": [
+      { "amount": 205.14, "year": 2023 },
+      { "amount": 169.8, "year": 2024 },
+      { "amount": 173.68, "year": 2025 }
+    ],
+    "brands": [
+      { "name": "Alfa Romeo", "founded": 1910 },
+      { "name": "Citroen", "founded": 1919 },
+      { "name": "Fiat", "founded": 1899 },
+      { "name": "Jeep", "founded": 1941 },
+      { "name": "Maserati", "founded": 1914 },
+      { "name": "Opel", "founded": 1862 },
+      { "name": "Peugeot", "founded": 1810 }
+    ]
+  },
+  {
+    "name": "Mercedes-Benz Group",
+    "founded_year": 1926,
+    "headquarters_country": "Germany",
+    "headquarters_city": "Stuttgart",
+    "est_value": 43.37,
+    "industry": "Automotive",
+    "is_public": true,
+    "revenue": [
+      { "amount": 157.66, "year": 2022 },
+      { "amount": 166.17, "year": 2023 },
+      { "amount": 156.62, "year": 2024 }
+    ],
+    "brands": [
+      { "name": "Mercedes-AMG", "founded": 1967 },
+      { "name": "Mercedes-Benz", "founded": 1926 },
+      { "name": "Mercedes-Maybach", "founded": 2014 }
+    ]
+  },
+  {
+    "name": "BMW Group",
+    "founded_year": 1916,
+    "headquarters_country": "Germany",
+    "headquarters_city": "Munich",
+    "est_value": 38.86,
+    "industry": "Automotive",
+    "is_public": true,
+    "revenue": [
+      { "amount": 149.68, "year": 2022 },
+      { "amount": 168.86, "year": 2023 },
+      { "amount": 153.16, "year": 2024 }
+    ],
+    "brands": [
+      { "name": "BMW", "founded": 1916 },
+      { "name": "MINI", "founded": 1956 },
+      { "name": "Rolls-Royce", "founded": 1906 }
+    ]
+  },
+  {
+    "name": "Renault",
+    "founded_year": 1899,
+    "headquarters_country": "France",
+    "headquarters_city": "Boulogne-Billancourt",
+    "est_value": 8.98,
+    "industry": "Automotive",
+    "is_public": true,
+    "revenue": [
+      { "amount": 57.89, "year": 2023 },
+      { "amount": 58.51, "year": 2024 },
+      { "amount": 68.04, "year": 2025 }
+    ],
+    "brands": [
+      { "name": "Alpine", "founded": 1955 },
+      { "name": "Dacia", "founded": 1966 },
+      { "name": "Renault", "founded": 1899 }
+    ]
+  },
+  {
+    "name": "Hyundai",
+    "founded_year": 1967,
+    "headquarters_country": "South Korea",
+    "headquarters_city": "Seoul",
+    "est_value": 55.99,
+    "industry": "Automotive",
+    "is_public": true,
+    "revenue": [
+      { "amount": 123.54, "year": 2023 },
+      { "amount": 127.24, "year": 2024 },
+      { "amount": 131.84, "year": 2025 }
+    ],
+    "brands": [
+      { "name": "Hyundai", "founded": 1967 },
+      { "name": "Kia", "founded": 1944 }
+    ]
+  },
+  {
+    "name": "Ford",
+    "founded_year": 1903,
+    "headquarters_country": "USA",
+    "headquarters_city": "Dearborn",
+    "est_value": 48.91,
+    "industry": "Automotive",
+    "is_public": true,
+    "revenue": [
+      { "amount": 176.19, "year": 2023 },
+      { "amount": 184.99, "year": 2024 },
+      { "amount": 187.26, "year": 2025 }
+    ],
+    "brands": [
+      { "name": "Ford", "founded": 1903 },
+      { "name": "Lincoln", "founded": 1917 }
+    ]
+  },
+  {
+    "name": "Honda",
+    "founded_year": 1948,
+    "headquarters_country": "Japan",
+    "headquarters_city": "Tokyo",
+    "est_value": 44.06,
+    "industry": "Automotive",
+    "is_public": true,
+    "revenue": [
+      { "amount": 136.48, "year": 2023 },
+      { "amount": 142.2, "year": 2024 },
+      { "amount": 142.81, "year": 2025 }
+    ],
+    "brands": [
+      { "name": "Acura", "founded": 1986 },
+      { "name": "Honda", "founded": 1948 }
+    ]
+  },
+  {
+    "name": "BYD",
+    "founded_year": 1995,
+    "headquarters_country": "China",
+    "headquarters_city": "Shenzhen",
+    "est_value": 111.52,
+    "industry": "Automotive",
+    "is_public": true,
+    "revenue": [
+      { "amount": 62.17, "year": 2022 },
+      { "amount": 84.92, "year": 2023 },
+      { "amount": 107.87, "year": 2024 }
+    ],
+    "brands": [{ "name": "BYD", "founded": 1995 }]
+  },
+  {
+    "name": "Tesla",
+    "founded_year": 2003,
+    "headquarters_country": "USA",
+    "headquarters_city": "Austin",
+    "est_value": 1580.0,
+    "industry": "Automotive",
+    "is_public": true,
+    "revenue": [
+      { "amount": 96.77, "year": 2023 },
+      { "amount": 97.69, "year": 2024 },
+      { "amount": 94.82, "year": 2025 }
+    ],
+    "brands": [{ "name": "Tesla", "founded": 2003 }]
+  }
+]
