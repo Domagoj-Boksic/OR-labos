@@ -10,17 +10,27 @@ const pool = new Pool();
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "../public")));
 
+// fetch the filtered data
 app.get(`/api/manufacturers`, async (req, res) => {
   const { from, by } = req.query;
 
+  // possible attributes
   const allowedFields = {
     name: "m.name",
-    brand_name: "b.name",
+    founded_year: "m.founded_year",
     headquarters_country: "m.headquarters_country",
     headquarters_city: "m.headquarters_city",
+    est_value: "m.est_value",
+    industry: "m.industry",
+    is_public: "m.is_public",
+    revenue_amount: "r.amount",
+    revenue_year: "r.year",
+    brand_name: "b.name",
+    brand_founded: "b.founded_year"
   };
 
   try {
+    // main sql
     let sql = `
         SELECT
           m.name,
@@ -43,6 +53,7 @@ app.get(`/api/manufacturers`, async (req, res) => {
 
     if (by) {
       if (from === "all") {
+        // search through every attribute
         sql += `
             WHERE
                 m.name::text ILIKE $1 OR
@@ -59,6 +70,7 @@ app.get(`/api/manufacturers`, async (req, res) => {
         `;
         values.push(`%${by}%`)
       } else {
+        // search through chosen attribute
         const column = allowedFields[from];
 
         if (!column) {

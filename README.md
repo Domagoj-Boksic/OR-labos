@@ -80,7 +80,7 @@ Car manufacturers, brands they own, make and sell, and their revenue across the 
 2. In `backend/`, copy `.env.example` to `.env` and fill in your database settings information
 3. Install dependencies: `npm start`
 4. Start the server: `npm start`
-5. Open http://localhost:PORT
+5. Open http://localhost:`PORT`
 
 Data sources<br>
 - https://companiesmarketcap.com/

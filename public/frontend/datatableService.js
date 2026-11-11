@@ -2,8 +2,10 @@ const form = document.getElementById("filterForm");
 const searchInput = document.getElementById("userInput");
 const fieldSelect = document.getElementById("attr");
 
+// filtered data
 let currentData = [];
 
+// export of filtered data
 function download(filename, content, mime) {
   const blob = new Blob([content], { type: mime });
   const url = URL.createObjectURL(blob);
@@ -78,9 +80,12 @@ function exportCSV() {
 document.getElementById("csvExport").addEventListener("click", exportCSV);
 document.getElementById("jsonExport").addEventListener("click", exportJSON);
 
+// build table with filtered data
 function buildTable(data) {
+  // table element
   let resTable = document.getElementById("resTable");
 
+  // table columns
   const COLUMNS = [
     "name",
     "founded_year",
@@ -100,9 +105,11 @@ function buildTable(data) {
     .querySelectorAll("tr:not(:first-child)")
     .forEach((row) => row.remove());
 
+  // for each item create a row  
   for (const item of data) {
     let tr = document.createElement("tr");
     for (const column of COLUMNS) {
+      // for each column fill the connected data
       let td = document.createElement("td");
       td.textContent = item[column] ?? "";
       tr.appendChild(td);
@@ -112,6 +119,7 @@ function buildTable(data) {
   return;
 }
 
+// when submited fetch the filtered data
 form.addEventListener("submit", async (event) => {
   event.preventDefault();
   const query = new URLSearchParams({
@@ -129,6 +137,7 @@ form.addEventListener("submit", async (event) => {
   currentData = data;
 });
 
+// table with all data
 async function loadInitialTable() {
   try {
     const response = await fetch("/api/manufacturers?from=all");
